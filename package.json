@@ -55,5 +55,8 @@
   },
   "scripts": {
     "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "eslint-config-standard-jsx": "^4.0.2"
   }
 }
