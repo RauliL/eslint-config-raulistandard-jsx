@@ -1,21 +1,27 @@
 {
-  "name": "eslint-config-standard-jsx",
-  "description": "JavaScript Standard Style JSX support - ESLint Shareable Config",
-  "version": "4.0.2",
-  "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "http://feross.org/"
-  },
+  "name": "eslint-config-raulistandard-jsx",
+  "description": "Rauli's Standard Style JSX support - ESLint Shareable Config",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Feross Aboukhadijeh",
+      "email": "feross@feross.org",
+      "url": "http://feross.org/"
+    },
+    {
+      "name": "Rauli Laine",
+      "email": "rauli.laine@iki.fi"
+    }
+  ],
   "bugs": {
-    "url": "https://github.com/feross/eslint-config-standard-jsx/issues"
+    "url": "https://github.com/RauliL/eslint-config-raulistandard-jsx/issues"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^6.10.3",
     "tape": "^4.6.3"
   },
-  "homepage": "https://github.com/feross/eslint-config-standard-jsx",
+  "homepage": "https://github.com/RauliL/eslint-config-raulistandard-jsx",
   "keywords": [
     "JavaScript Standard Style",
     "check",
@@ -51,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/eslint-config-standard-jsx.git"
+    "url": "git://github.com/RauliL/eslint-config-raulistandard-jsx.git"
   },
   "scripts": {
     "test": "tape test/*.js"
